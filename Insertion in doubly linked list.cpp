@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+//node class can be made struct
 class Node {
 public:
     int data;
@@ -20,6 +20,7 @@ void insertAtBeginning(Node*& head, int value) {
         newNode->next = head;
         head->prev = newNode;
     }
+    //if condition is not true then this condition will run
     head = newNode;
 }
 
@@ -30,10 +31,12 @@ void insertAtEnd(Node*& head, int value) {
         head = newNode;
         return;
     }
+    //traversing
     Node* temp = head;
     while (temp->next != NULL) {
         temp = temp->next;
     }
+    //insertion
     temp->next = newNode;
     newNode->prev = temp;
 }
@@ -77,7 +80,7 @@ void printList(Node* head) {
     }
     cout << "NULL" << endl;
 }
-
+//main fucntion
 int main() {
     Node* head = NULL;
 
@@ -86,7 +89,7 @@ int main() {
     insertAtEnd(head, 30);
     insertAtEnd(head, 40);
     insertAtPosition(head, 25, 3); // Insert 25 at position 3
-
+   //printing
     printList(head);
     system("pause");
     return 0;
