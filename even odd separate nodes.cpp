@@ -1,10 +1,12 @@
 //#include<iostream>
 //using namespace std;
+////struct node declaration
 //struct Node {
 //	int data;
 //	Node* next;
 //	Node(int val) : data(val), next(nullptr) {}
 //};
+////list class included all functions
 //class List {
 //	Node* head;
 //public:
@@ -30,7 +32,7 @@
 //			evenindex = evenindex->next;   //moving even to next node
 //
 //		}
-//		oddindex->next = evenhead;
+//		oddindex->next = evenhead;     ////for adding the even and odd parts 
 //
 //
 //	}
@@ -44,13 +46,16 @@
 //    cout << "NULL" << endl;
 //    }
 //};
+////main function  
 //int main() {
 //	List list;
+////inserting the elements in the linked list
 //	list.insert(1);
 //	list.insert(2);
 //	list.insert(3);
 //	list.insert(4);
 //	list.insert(5);
+////printing the linked list
 //	cout << "Given: ";
 //	list.printList();
 //	cout << "After rearraging: ";
