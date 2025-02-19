@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-// Define Stack class
+//  Stack class
 class Stack {
     // Pointer to an array that stores elements of the stack
     int* arr;
@@ -77,10 +77,10 @@ public:
 // Main function
 int main()
 {
-    // Create a stack of size 3
+    // Create a stack of size 4
     Stack stack(4);
 
-    // Push elements into the stack
+    // Pushing elements into the stack
     stack.push(10);
     stack.push(20);
     stack.push(30);
