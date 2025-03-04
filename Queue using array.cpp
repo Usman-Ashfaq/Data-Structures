@@ -1,21 +1,21 @@
-//#include <iostream>
-//
-//using namespace std;
-//
-//// Define a class for a linked list node
-//class Node {
-//public:
-//    int data;    
-//    Node* next;  
-//    // Constructor for node
-//    Node(int value) {
-//        data = value;
-//        next = nullptr;
-//    }
-//};
-//
-//// Define a class for the linked list
-//class LinkedList {
+#include <iostream>
+
+using namespace std;
+
+// Define a class for a linked list node
+class Node {
+public:
+   int data;    
+    Node* next;  
+   // Constructor for node
+    Node(int value) {
+       data = value;
+next = nullptr;
+   }
+};
+
+// D class for the linked list
+class LinkedList {
 //private:
 //    Node* head; 
 //
@@ -31,7 +31,7 @@
 //        return newNode;
 //    }
 //
-//    // Function to insert a node at the beginning of the list
+//    // Function to insert a node at the beginning 
 //    void insertAtBeginning(int value) {
 //        Node* newNode = createNode(value);
 //        if (head == nullptr) {
@@ -43,7 +43,7 @@
 //        }
 //    }
 //
-//    // Function to insert a node at the end of the list
+//    // Function to insert a node at the end 
 //    void insertAtEnd(int value) {
 //        Node* newNode = createNode(value);
 //        if (head == nullptr) {
