@@ -6,7 +6,7 @@ struct Node {
     Node* next;
 };
 
-// Function to delete a node at a specific position
+//  delete a node at a specific position
 void deleteNode(Node*& head, int position) {
     if (head == NULL) {  // If list is empty
         cout << "List is empty!\n";
@@ -15,7 +15,7 @@ void deleteNode(Node*& head, int position) {
 
     Node* temp = head;
 
-    // If deleting the first node
+
     if (position == 0) {
         head = temp->next;  // Move head to the next node
         delete temp;  // Free memory
@@ -37,7 +37,7 @@ void deleteNode(Node*& head, int position) {
     Node* toDelete = temp->next;
     temp->next = toDelete->next;  // Unlink the node
 
-    delete toDelete;  // Free memory
+    delete toDelete;  
 }
 
 // Function to insert a new node at the end
