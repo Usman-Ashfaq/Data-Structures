@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-
+//making class node
 class Node {
 public:
     int data;
@@ -13,7 +13,7 @@ public:
         left = right = nullptr;
     }
 };
-
+//making class tree
 class Tree {
 public:
     void Preorder(Node* root) {
