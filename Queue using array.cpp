@@ -15,21 +15,20 @@ next = nullptr;
 
 //  class for the linked list
 class LinkedList {
-//private:
-//    Node* head; 
-//
-//public:
-//    // Constructor for linked list
-//    LinkedList() {
-//        head = nullptr;
-//    }
-//
-//    // Function to create a new node
-//    Node* createNode(int value) {
-//        Node* newNode = new Node(value);
-//        return newNode;
-//    }
-//
+
+   Node* head; 
+public:
+    // Constructor for linked list
+    LinkedList() {
+        head = nullptr;
+    }
+
+    // Function to create a new node
+    Node* createNode(int value) {
+        Node* newNode = new Node(value);
+        return newNode;
+    }
+
 //    // Function to insert a node at the beginning 
 //    void insertAtBeginning(int value) {
 //        Node* newNode = createNode(value);
