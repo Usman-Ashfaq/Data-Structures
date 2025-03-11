@@ -1,8 +1,7 @@
 #include <iostream>
-
 using namespace std;
 
-// Define a class for a linked list node
+//  class for a linked list node
 class Node {
 public:
    int data;    
@@ -14,7 +13,7 @@ next = nullptr;
    }
 };
 
-// D class for the linked list
+//  class for the linked list
 class LinkedList {
 //private:
 //    Node* head; 
