@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+//taking constant size 
 const int total_SIZE = 5;  
 
 class Queue {
