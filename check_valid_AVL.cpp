@@ -1,13 +1,13 @@
-//#include <iostream>
-//using namespace std;
-//
-//struct Node {
-//    int data;
-//    Node* left;
-//    Node* right;
-//    int height;
-//};
-//
+#include <iostream>
+using namespace std;
+
+struct Node {
+/   int data;
+/   Node* left;
+/   Node* right;
+/   int height;
+};
+
 //Node* createNode(int data) {
 //    Node* newNode = new Node;
 //    newNode->data = data;
