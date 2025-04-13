@@ -8,14 +8,14 @@ struct Node {
 /   int height;
 };
 
-//Node* createNode(int data) {
-//    Node* newNode = new Node;
-//    newNode->data = data;
+Node* createNode(int data) {
+/  Node* newNode = new Node;
+   newNode->data = data;
 //    newNode->left = nullptr;
 //    newNode->right = nullptr;
-//    newNode->height = 1;
+    newNode->height = 1;
 //    return newNode;
-//}
+}
 //
 //void inorderTraversal(Node* root) {
 //    if (root == nullptr) {
