@@ -9,22 +9,21 @@ struct Node {
 };
 
 Node* createNode(int data) {
-/  Node* newNode = new Node;
+ Node* newNode = new Node;
    newNode->data = data;
-//    newNode->left = nullptr;
-//    newNode->right = nullptr;
+    newNode->left = nullptr;
+    newNode->right = nullptr;
     newNode->height = 1;
-//    return newNode;
+    return newNode;
 }
-//
-//void inorderTraversal(Node* root) {
-//    if (root == nullptr) {
-//        return;
-//    }
-//    inorderTraversal(root->left);
-//    cout << root->data << " ";
-//    inorderTraversal(root->right);
-//}
+void inorderTraversal(Node* root) {
+   if (root == nullptr) {
+        return;
+    }
+      inorderTraversal(root->left);
+    cout << root->data << " ";
+  inorderTraversal(root->right);
+}
 //
 //// Function to check if a tree is a valid BST
 //bool is_valid_bst(Node* root, Node* minNode, Node* maxNode) {
