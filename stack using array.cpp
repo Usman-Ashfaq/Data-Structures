@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-//// Define Stack class
+// Define Stack class
 class Stack {
 //    // Pointer to an array that stores elements of the stack
 //    int* arr;
@@ -23,13 +23,13 @@ public:
 //        top = -1;
 //    }
 //
-//    // Destructor to deallocate memory
+    // Destructor to deallocate memory
 //    ~Stack() { 
 //        delete[] arr; 
 //    }
 //
 //    // Function to add an element x in the stack
-//    void push(int x)
+    void push(int x)
 //    {
 //        // Check if the stack is full
 //        if (isFull()) {
@@ -39,7 +39,7 @@ public:
 //        cout << "Pushing " << x << "\n";
 //        // Add element and increment top
 //        arr[++top] = x;
-//    }
+   }
 //
 //    // Function to remove an element from the stack
 //    int pop()
