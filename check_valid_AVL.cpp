@@ -24,17 +24,17 @@ void inorderTraversal(Node* root) {
     cout << root->data << " ";
   inorderTraversal(root->right);
 }
-//
-//// Function to check if a tree is a valid BST
-//bool is_valid_bst(Node* root, Node* minNode, Node* maxNode) {
-//    if (root == nullptr) {
-//        return true;
-//    }
-//
-//    if ((minNode && root->data <= minNode->data) ||
-//        (maxNode && root->data >= maxNode->data)) {
-//        return false;
-//    }
+
+// Function to check if a tree is a valid BST
+bool is_valid_bst(Node* root, Node* minNode, Node* maxNode) {
+    if (root == nullptr) {
+      return true;
+    }
+
+   if ((minNode && root->data <= minNode->data) ||
+        (maxNode && root->data >= maxNode->data)) {
+       return false;
+    }
 //
 //    return is_valid_bst(root->left, minNode, root) &&
 //        is_valid_bst(root->right, root, maxNode);
