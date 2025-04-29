@@ -5,11 +5,11 @@ using namespace std;
 // Define Stack class
 class Stack {
 //    // Pointer to an array that stores elements of the stack
-//    int* arr;
-//    // Index of the top element in the stack
-//    int top;
-//    // Maximum size of the stack
-//    int capacity;
+   int* arr;
+    // Index of the top element in the stack
+    int top;
+    // Maximum size of the stack
+    int capacity;
 public:
    // Constructor to initialize the stack
    Stack(int size)
