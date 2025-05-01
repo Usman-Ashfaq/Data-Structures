@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-//node class can be made struct
+
 class Node {
 public:
     int data;
@@ -13,14 +13,14 @@ public:
     }
 };
 
-// Insert at the beginning
+
 void insertAtBeginning(Node*& head, int value) {
     Node* newNode = new Node(value);
     if (head != NULL) {
         newNode->next = head;
         head->prev = newNode;
     }
-    //if condition is not true then this condition will run
+    
     head = newNode;
 }
 
