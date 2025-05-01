@@ -12,11 +12,11 @@ public:
 		front = -1;
 		rear = -1;
 	}
-
+// function to check queue is empty
 	bool isempty() {
 		return front == -1;
 	}
-
+//function to check q is full
 	bool isfull() {
 		return (rear + 1) % total_SIZE == front;
 	}
