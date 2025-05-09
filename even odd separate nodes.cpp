@@ -1,12 +1,12 @@
-//#include<iostream>
-//using namespace std;
-////struct node declaration
-//struct Node {
-//	int data;
-//	Node* next;
-//	Node(int val) : data(val), next(nullptr) {}
-//};
-////list class included all functions
+#include<iostream>
+using namespace std;
+//struct node declaration
+struct Node {
+	int data;
+	Node* next;
+	Node(int val) : data(val), next(nullptr) {}
+};
+//list class included all functions
 //class List {
 //	Node* head;
 //public:
