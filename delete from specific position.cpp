@@ -15,7 +15,7 @@ void deleteNode(Node*& head, int position) {
 
     Node* temp = head;
 
-
+//if position is at head
     if (position == 0) {
         head = temp->next;  // Move head to the next node
         delete temp;  // Free memory
