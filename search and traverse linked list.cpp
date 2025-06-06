@@ -29,7 +29,8 @@ bool search(Node* head, int value) {
 }
 //main driver function
 int main() 
-{
+{       //insetting elements
+	
 	Node* head = new Node();
 	Node* second = new Node();
 	Node* third = new Node();
