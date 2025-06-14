@@ -18,9 +18,9 @@ class Tree {
 public:
     void Preorder(Node* root) {
         if (root) {
-            cout << root->data << " ";  //
-            Preorder(root->left);      // 
-            Preorder(root->right);     // 
+            cout << root->data << " ";  
+            Preorder(root->left);       
+            Preorder(root->right);      
         }
     }
 
