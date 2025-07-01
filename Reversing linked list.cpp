@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+//struct node
 struct Node {
     int data;
     Node* next;
@@ -17,6 +17,7 @@ Node* reverseLinkedList(Node* head) {
     Node* curr = head;
     Node* next = nullptr;
 
+    //loop to continue
     while (curr != nullptr) {
         next = curr->next;  // Store next node
         curr->next = prev;  // Reverse current node's pointer
@@ -39,6 +40,7 @@ void printList(Node* head) {
 
 // Driver function
 int main() {
+    //hard code or testing
     Node* head = new Node(1);
     head->next = new Node(2);
     head->next->next = new Node(3);
