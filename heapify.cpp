@@ -49,7 +49,7 @@ void printArray(int arr[], int n) {
     cout << endl;
 }
 
-// ---------- Driver Code ----------
+
 int main() {
     int arr[] = { 12, 11, 13, 5, 6, 7 };
     //int n = sizeof(arr) / sizeof(arr[0]);
