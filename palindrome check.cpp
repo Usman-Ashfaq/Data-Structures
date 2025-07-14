@@ -35,7 +35,7 @@ Node* reverseLinkedList(Node* head) {
         curr = next;        // Move current to next node
     }
 
-    return prev;  // New head of reversed list
+    return prev;  
 }
 bool palindrome(Node* head) {
     if (head == NULL)
