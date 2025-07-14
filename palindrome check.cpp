@@ -10,7 +10,7 @@ struct Node {
         next = nullptr;
     }
 };
-//function to find the middle element
+//finding the middle
 Node* middle(Node* head) {
     Node* slow = head;
     Node* fast = head->next;
@@ -22,7 +22,7 @@ Node* middle(Node* head) {
     return slow;
 }
 
-// Function to reverse the linked list
+// finding reverse
 Node* reverseLinkedList(Node* head) {
     Node* prev = nullptr;
     Node* curr = head;
