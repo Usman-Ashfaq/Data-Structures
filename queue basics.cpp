@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-//taking constant size 
+
 const int total_SIZE = 5;  
 
 class Queue {
@@ -51,7 +51,7 @@ public:
 		}
 	}
 
-	// Return the element  without removing it
+	
 	int frontEle() {
 		if (isempty()) {
 			cout << "queue is empty" << endl;
