@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// Heapify-down for Max-Heap
+
 void heapify(int arr[], int n, int i) {
     int largest = i;
     int left = 2 * i + 1;  // left child
@@ -19,7 +19,7 @@ void heapify(int arr[], int n, int i) {
         arr[i] = arr[largest];
         arr[largest] = temp;
 
-        // Recursively heapify the affected subtree
+    
         heapify(arr, n, largest);
     }
 }
