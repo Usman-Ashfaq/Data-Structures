@@ -1,11 +1,11 @@
 #include<iostream>
 using namespace std;
-//struct containing data and Node type pointer
+
 struct Node {
 	int data;
 	Node* next;
 };
-//traversing thr whole linked list
+//traversing
 void traverse(Node* head) {
 	Node* temp = head;
 	while (temp != nullptr) {
@@ -14,7 +14,7 @@ void traverse(Node* head) {
 	}
 	cout << " Null\n";
 }
-//function to find the specific element in the linked list 
+//function to find the specific element 
 //in this case 20 is to be find
 bool search(Node* head, int value) {
 	Node* temp = head;
@@ -27,7 +27,7 @@ bool search(Node* head, int value) {
 	}
 	return false;
 }
-//main driver function
+
 int main() 
 {       //insetting elements
 	
@@ -40,7 +40,7 @@ int main()
 	second->next = third;
 	third->data = 30;
 	third->next = nullptr;
-	int  searchValue = 20; // Another value to search
+	int  searchValue = 20; 
 	if (search(head, searchValue)) {
 		cout << searchValue << " is found in the list!" << endl;
 	}
@@ -57,3 +57,4 @@ int main()
 
 
 }
+
