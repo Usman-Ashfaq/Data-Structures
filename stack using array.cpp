@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+//stack class cntaining all basic functions
 class Stack {
     int* arr;
     int top;
@@ -15,7 +15,7 @@ public:
     ~Stack() { 
         delete[] arr; 
     }
-
+//push function
     void push(int x) {
         if (isFull()) {
             cout << "Overflow\n";
@@ -24,7 +24,7 @@ public:
         cout << "Pushing " << x << "\n";
         arr[++top] = x;
     }
-
+//pop return something
     int pop() {
         if (isEmpty()) {
             cout << "Underflow\n";
@@ -74,3 +74,4 @@ int main() {
     system("pause");
     return 0;
 }
+
