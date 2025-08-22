@@ -121,7 +121,7 @@ public:
         return node;
     }
 
-    // Wrapper function to insert from outside
+    // function to insert from outside
     void insert(int key) {
         root = insert(root, key);
     }
@@ -135,7 +135,7 @@ public:
         }
     }
 
-    // Display inorder
+    //  inorder function
     void displayInorder() {
         inorder(root);
         cout << endl;
@@ -145,7 +145,7 @@ public:
 int main() {
     AVL tree;
 
-    // Example values: will show rotations like LL, RR, LR, RL
+    
     tree.insert(40);
     tree.insert(30);
     tree.insert(20); // triggers right rotate (LL)
@@ -161,3 +161,4 @@ int main() {
 
     return 0;
 }
+
