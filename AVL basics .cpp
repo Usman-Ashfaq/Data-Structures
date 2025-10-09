@@ -14,7 +14,7 @@ struct Node {
         height = 1;
     }
 };
-
+//AVl main class
 class AVL {
 public:
     Node* root;
@@ -161,4 +161,5 @@ int main() {
 
     return 0;
 }
+
 
