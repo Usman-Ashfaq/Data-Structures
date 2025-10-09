@@ -141,11 +141,11 @@ public:
         cout << endl;
     }
 };
-
+//main program 
 int main() {
     AVL tree;
 
-    
+    //hard codign the to make the tree
     tree.insert(40);
     tree.insert(30);
     tree.insert(20); // triggers right rotate (LL)
@@ -155,11 +155,12 @@ int main() {
     tree.insert(65);
     tree.insert(33);
     tree.insert(31); // triggers right-left rotate (RL)
-
+//showign inorder
     cout << "Inorder Traversal of AVL Tree: ";
     tree.displayInorder();  // Should print in ascending order
 
     return 0;
 }
+
 
 
