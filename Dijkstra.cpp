@@ -21,12 +21,12 @@ public:
             }
         }
     }
-
+//function to add edge 
     void addEdge(int u, int v, int w) {
         graph[u][v] = w;
         graph[v][u] = w;  // For undirected graph
     }
-
+//function to find distance
     int findMinDistance() {
         int min = INF;
         int minIndex = -1;
